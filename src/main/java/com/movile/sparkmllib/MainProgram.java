@@ -23,9 +23,7 @@ public class MainProgram {
 
     private static String ROOT = "generated-model";
 
-    // maps SparkMLlib trained model per carrier
-    private static Map<Integer, DecisionTreeModel> modelMapSuccess;
-    private static Map<Integer, DecisionTreeModel> modelMapAttempts;
+    private static double ERROR_THRESHOLD = 45.0;
 
     public static void main(String[] args) throws Exception {
         // initializing a local spark context (embedded spark instance)
@@ -44,8 +42,12 @@ public class MainProgram {
         dataset.forEach(labeledPoint -> {
             int predicted = (int) Math.exp(model.predict(labeledPoint.features()));
             int measured = (int) Math.exp(labeledPoint.label());
-            log("features: " + format(labeledPoint) + ", measured: " + measured + ", predicted: " + predicted);
+            double error = ((double)(predicted - measured) / (double) measured) * 100.0;
+            log("features: " + format(labeledPoint) + ", measured: " + measured + ", predicted: " + predicted + ", error: " + error);
 
+            if (error > ERROR_THRESHOLD) {
+                alert("[ALERT] high error on success " + error + ", check for problems: " + labeledPoint.features());
+            }
         });
 
         // closing spark context
@@ -117,6 +119,11 @@ public class MainProgram {
         sb.append("]");
 
         return sb.toString();
+    }
+
+    public static void alert(String message) {
+        log(message);
+
     }
 
     /**

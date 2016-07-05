@@ -2327,3 +2327,294 @@ StructType(StructField(treeId,IntegerType,true), StructField(nodeId,IntegerType,
 [34m[INFO ][0;39m [35m[2016-07-05 13:44:13,998][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | SparkContext already stopped.
 [34m[INFO ][0;39m [35m[2016-07-05 13:44:14,003][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Shutdown hook called
 [34m[INFO ][0;39m [35m[2016-07-05 13:44:14,005][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Deleting directory /private/var/folders/fd/s_6smjqn7mngnfdw8rz9t4w00000gp/T/spark-2f8bf933-dbdb-49f8-bc4d-87159afec315
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:48,235][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Running Spark version 1.6.0
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:48,751][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Changing view acls to: eiti
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:48,752][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Changing modify acls to: eiti
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:48,753][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(eiti); users with modify permissions: Set(eiti)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:49,390][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Successfully started service 'sparkDriver' on port 57026.
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:50,288][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Successfully started service 'sparkDriverActorSystem' on port 57027.
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:50,307][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Registering MapOutputTracker
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:50,337][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Registering BlockManagerMaster
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:50,363][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Created local directory at /private/var/folders/fd/s_6smjqn7mngnfdw8rz9t4w00000gp/T/blockmgr-1c41d679-4867-4f64-a534-cdb23f6771a2
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:50,390][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | MemoryStore started with capacity 1140.4 MB
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:50,508][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Registering OutputCommitCoordinator
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:50,943][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Successfully started service 'SparkUI' on port 4040.
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:50,947][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Started SparkUI at http://192.168.188.6:4040
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:51,118][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting executor ID driver on host localhost
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:51,150][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 57028.
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:51,151][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Server created on 57028
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:51,154][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Trying to register BlockManager
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:51,157][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Registering block manager localhost:57028 with 1140.4 MB RAM, BlockManagerId(driver, localhost, 57028)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:51,160][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Registered BlockManager
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,350][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Block broadcast_0 stored as values in memory (estimated size 107.7 KB, free 107.7 KB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,407][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Block broadcast_0_piece0 stored as bytes in memory (estimated size 9.8 KB, free 117.5 KB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,410][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Added broadcast_0_piece0 in memory on localhost:57028 (size: 9.8 KB, free: 1140.4 MB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,416][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Created broadcast 0 from textFile at modelSaveLoad.scala:129
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,849][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting job: first at modelSaveLoad.scala:129
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,873][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Got job 0 (first at modelSaveLoad.scala:129) with 1 output partitions
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,873][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Final stage: ResultStage 0 (first at modelSaveLoad.scala:129)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,874][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Parents of final stage: List()
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,877][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Missing parents: List()
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,889][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Submitting ResultStage 0 (MapPartitionsRDD[1] at textFile at modelSaveLoad.scala:129), which has no missing parents
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,912][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Block broadcast_1 stored as values in memory (estimated size 3.0 KB, free 120.5 KB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,915][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Block broadcast_1_piece0 stored as bytes in memory (estimated size 1776.0 B, free 122.2 KB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,916][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Added broadcast_1_piece0 in memory on localhost:57028 (size: 1776.0 B, free: 1140.4 MB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,916][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Created broadcast 1 from broadcast at DAGScheduler.scala:1006
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,920][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at textFile at modelSaveLoad.scala:129)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,922][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Adding task set 0.0 with 1 tasks
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,969][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting task 0.0 in stage 0.0 (TID 0, localhost, partition 0,PROCESS_LOCAL, 2134 bytes)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:52,979][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Running task 0.0 in stage 0.0 (TID 0)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,009][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Input split: file:/Users/eiti/git-repository/spark-mllib-sample/generated-model/trained-model/c1model-succ/metadata/part-00000:0+54
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,085][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 0.0 in stage 0.0 (TID 0). 2154 bytes result sent to driver
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,092][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 0.0 in stage 0.0 (TID 0) in 140 ms on localhost (1/1)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,094][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Removed TaskSet 0.0, whose tasks have all completed, from pool 
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,098][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | ResultStage 0 (first at modelSaveLoad.scala:129) finished in 0,162 s
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,109][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Job 0 finished: first at modelSaveLoad.scala:129, took 0,259522 s
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,370][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Removed broadcast_1_piece0 on localhost:57028 in memory (size: 1776.0 B, free: 1140.4 MB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,373][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Cleaned accumulator 1
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,375][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Removed broadcast_0_piece0 on localhost:57028 in memory (size: 9.8 KB, free: 1140.4 MB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,621][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Listing file:/Users/eiti/git-repository/spark-mllib-sample/generated-model/trained-model/c1model-succ/data on driver
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,710][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting job: parquet at DecisionTreeModel.scala:247
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,711][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Got job 1 (parquet at DecisionTreeModel.scala:247) with 4 output partitions
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,712][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Final stage: ResultStage 1 (parquet at DecisionTreeModel.scala:247)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,712][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Parents of final stage: List()
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,712][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Missing parents: List()
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,713][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Submitting ResultStage 1 (MapPartitionsRDD[3] at parquet at DecisionTreeModel.scala:247), which has no missing parents
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,741][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Block broadcast_2 stored as values in memory (estimated size 44.9 KB, free 44.9 KB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,744][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Block broadcast_2_piece0 stored as bytes in memory (estimated size 15.1 KB, free 60.0 KB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,745][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Added broadcast_2_piece0 in memory on localhost:57028 (size: 15.1 KB, free: 1140.4 MB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,747][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Created broadcast 2 from broadcast at DAGScheduler.scala:1006
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,747][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Submitting 4 missing tasks from ResultStage 1 (MapPartitionsRDD[3] at parquet at DecisionTreeModel.scala:247)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,748][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Adding task set 1.0 with 4 tasks
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,760][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting task 0.0 in stage 1.0 (TID 1, localhost, partition 0,PROCESS_LOCAL, 1995 bytes)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,761][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting task 1.0 in stage 1.0 (TID 2, localhost, partition 1,PROCESS_LOCAL, 1995 bytes)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,762][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting task 2.0 in stage 1.0 (TID 3, localhost, partition 2,PROCESS_LOCAL, 1995 bytes)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,764][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting task 3.0 in stage 1.0 (TID 4, localhost, partition 3,PROCESS_LOCAL, 2176 bytes)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,765][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Running task 0.0 in stage 1.0 (TID 1)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,765][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Running task 1.0 in stage 1.0 (TID 2)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,766][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Running task 2.0 in stage 1.0 (TID 3)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,768][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Running task 3.0 in stage 1.0 (TID 4)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,855][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 0.0 in stage 1.0 (TID 1). 936 bytes result sent to driver
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,857][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 2.0 in stage 1.0 (TID 3). 936 bytes result sent to driver
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,857][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 0.0 in stage 1.0 (TID 1) in 106 ms on localhost (1/4)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,859][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 2.0 in stage 1.0 (TID 3) in 98 ms on localhost (2/4)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,862][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 1.0 in stage 1.0 (TID 2). 936 bytes result sent to driver
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:53,866][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 1.0 in stage 1.0 (TID 2) in 104 ms on localhost (3/4)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:55,700][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 3.0 in stage 1.0 (TID 4). 2321 bytes result sent to driver
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:55,705][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 3.0 in stage 1.0 (TID 4) in 1941 ms on localhost (4/4)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:55,705][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | ResultStage 1 (parquet at DecisionTreeModel.scala:247) finished in 1,957 s
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:55,705][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Removed TaskSet 1.0, whose tasks have all completed, from pool 
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:55,706][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Job 1 finished: parquet at DecisionTreeModel.scala:247, took 1,995087 s
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,071][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Removed broadcast_2_piece0 on localhost:57028 in memory (size: 15.1 KB, free: 1140.4 MB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,072][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Cleaned accumulator 2
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,548][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Block broadcast_3 stored as values in memory (estimated size 59.6 KB, free 59.6 KB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,575][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Block broadcast_3_piece0 stored as bytes in memory (estimated size 13.8 KB, free 73.3 KB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,576][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Added broadcast_3_piece0 in memory on localhost:57028 (size: 13.8 KB, free: 1140.4 MB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,577][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Created broadcast 3 from map at DecisionTreeModel.scala:250
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,727][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Reading Parquet file(s) from file:/Users/eiti/git-repository/spark-mllib-sample/generated-model/trained-model/c1model-succ/data/part-r-00000-b59940d9-399b-4655-bd2a-bab4b5198dab.gz.parquet, file:/Users/eiti/git-repository/spark-mllib-sample/generated-model/trained-model/c1model-succ/data/part-r-00001-b59940d9-399b-4655-bd2a-bab4b5198dab.gz.parquet, file:/Users/eiti/git-repository/spark-mllib-sample/generated-model/trained-model/c1model-succ/data/part-r-00002-b59940d9-399b-4655-bd2a-bab4b5198dab.gz.parquet, file:/Users/eiti/git-repository/spark-mllib-sample/generated-model/trained-model/c1model-succ/data/part-r-00003-b59940d9-399b-4655-bd2a-bab4b5198dab.gz.parquet
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,817][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting job: collect at DecisionTreeModel.scala:265
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,822][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Registering RDD 7 (groupBy at DecisionTreeModel.scala:263)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,823][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Got job 2 (collect at DecisionTreeModel.scala:265) with 4 output partitions
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,823][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Final stage: ResultStage 3 (collect at DecisionTreeModel.scala:265)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,823][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Parents of final stage: List(ShuffleMapStage 2)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,824][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Missing parents: List(ShuffleMapStage 2)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,825][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Submitting ShuffleMapStage 2 (MapPartitionsRDD[7] at groupBy at DecisionTreeModel.scala:263), which has no missing parents
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,843][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Block broadcast_4 stored as values in memory (estimated size 7.4 KB, free 80.8 KB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,844][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Block broadcast_4_piece0 stored as bytes in memory (estimated size 3.8 KB, free 84.6 KB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,845][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Added broadcast_4_piece0 in memory on localhost:57028 (size: 3.8 KB, free: 1140.4 MB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,846][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Created broadcast 4 from broadcast at DAGScheduler.scala:1006
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,847][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Submitting 4 missing tasks from ShuffleMapStage 2 (MapPartitionsRDD[7] at groupBy at DecisionTreeModel.scala:263)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,847][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Adding task set 2.0 with 4 tasks
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,850][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting task 0.0 in stage 2.0 (TID 5, localhost, partition 0,PROCESS_LOCAL, 2181 bytes)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,850][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting task 1.0 in stage 2.0 (TID 6, localhost, partition 1,PROCESS_LOCAL, 2181 bytes)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,851][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting task 2.0 in stage 2.0 (TID 7, localhost, partition 2,PROCESS_LOCAL, 2180 bytes)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,852][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting task 3.0 in stage 2.0 (TID 8, localhost, partition 3,PROCESS_LOCAL, 2180 bytes)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,853][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Running task 0.0 in stage 2.0 (TID 5)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,853][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Running task 1.0 in stage 2.0 (TID 6)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,853][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Running task 2.0 in stage 2.0 (TID 7)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,853][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Running task 3.0 in stage 2.0 (TID 8)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,883][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Input split: ParquetInputSplit{part: file:/Users/eiti/git-repository/spark-mllib-sample/generated-model/trained-model/c1model-succ/data/part-r-00000-b59940d9-399b-4655-bd2a-bab4b5198dab.gz.parquet start: 0 end: 3985 length: 3985 hosts: []}
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,883][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Input split: ParquetInputSplit{part: file:/Users/eiti/git-repository/spark-mllib-sample/generated-model/trained-model/c1model-succ/data/part-r-00003-b59940d9-399b-4655-bd2a-bab4b5198dab.gz.parquet start: 0 end: 3886 length: 3886 hosts: []}
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,883][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Input split: ParquetInputSplit{part: file:/Users/eiti/git-repository/spark-mllib-sample/generated-model/trained-model/c1model-succ/data/part-r-00001-b59940d9-399b-4655-bd2a-bab4b5198dab.gz.parquet start: 0 end: 3909 length: 3909 hosts: []}
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,883][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Input split: ParquetInputSplit{part: file:/Users/eiti/git-repository/spark-mllib-sample/generated-model/trained-model/c1model-succ/data/part-r-00002-b59940d9-399b-4655-bd2a-bab4b5198dab.gz.parquet start: 0 end: 3887 length: 3887 hosts: []}
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,973][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Going to read the following fields from the Parquet file:
+
+Parquet form:
+message spark_schema {
+  optional int32 treeId;
+  optional int32 nodeId;
+  optional group predict {
+    optional double predict;
+    optional double prob;
+  }
+  optional double impurity;
+  optional boolean isLeaf;
+  optional group split {
+    optional int32 feature;
+    optional double threshold;
+    optional int32 featureType;
+    optional group categories (LIST) {
+      repeated group list {
+        optional double element;
+      }
+    }
+  }
+  optional int32 leftNodeId;
+  optional int32 rightNodeId;
+  optional double infoGain;
+}
+
+Catalyst form:
+StructType(StructField(treeId,IntegerType,true), StructField(nodeId,IntegerType,true), StructField(predict,StructType(StructField(predict,DoubleType,true), StructField(prob,DoubleType,true)),true), StructField(impurity,DoubleType,true), StructField(isLeaf,BooleanType,true), StructField(split,StructType(StructField(feature,IntegerType,true), StructField(threshold,DoubleType,true), StructField(featureType,IntegerType,true), StructField(categories,ArrayType(DoubleType,true),true)),true), StructField(leftNodeId,IntegerType,true), StructField(rightNodeId,IntegerType,true), StructField(infoGain,DoubleType,true))
+       
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,973][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Going to read the following fields from the Parquet file:
+
+Parquet form:
+message spark_schema {
+  optional int32 treeId;
+  optional int32 nodeId;
+  optional group predict {
+    optional double predict;
+    optional double prob;
+  }
+  optional double impurity;
+  optional boolean isLeaf;
+  optional group split {
+    optional int32 feature;
+    optional double threshold;
+    optional int32 featureType;
+    optional group categories (LIST) {
+      repeated group list {
+        optional double element;
+      }
+    }
+  }
+  optional int32 leftNodeId;
+  optional int32 rightNodeId;
+  optional double infoGain;
+}
+
+Catalyst form:
+StructType(StructField(treeId,IntegerType,true), StructField(nodeId,IntegerType,true), StructField(predict,StructType(StructField(predict,DoubleType,true), StructField(prob,DoubleType,true)),true), StructField(impurity,DoubleType,true), StructField(isLeaf,BooleanType,true), StructField(split,StructType(StructField(feature,IntegerType,true), StructField(threshold,DoubleType,true), StructField(featureType,IntegerType,true), StructField(categories,ArrayType(DoubleType,true),true)),true), StructField(leftNodeId,IntegerType,true), StructField(rightNodeId,IntegerType,true), StructField(infoGain,DoubleType,true))
+       
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,973][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Going to read the following fields from the Parquet file:
+
+Parquet form:
+message spark_schema {
+  optional int32 treeId;
+  optional int32 nodeId;
+  optional group predict {
+    optional double predict;
+    optional double prob;
+  }
+  optional double impurity;
+  optional boolean isLeaf;
+  optional group split {
+    optional int32 feature;
+    optional double threshold;
+    optional int32 featureType;
+    optional group categories (LIST) {
+      repeated group list {
+        optional double element;
+      }
+    }
+  }
+  optional int32 leftNodeId;
+  optional int32 rightNodeId;
+  optional double infoGain;
+}
+
+Catalyst form:
+StructType(StructField(treeId,IntegerType,true), StructField(nodeId,IntegerType,true), StructField(predict,StructType(StructField(predict,DoubleType,true), StructField(prob,DoubleType,true)),true), StructField(impurity,DoubleType,true), StructField(isLeaf,BooleanType,true), StructField(split,StructType(StructField(feature,IntegerType,true), StructField(threshold,DoubleType,true), StructField(featureType,IntegerType,true), StructField(categories,ArrayType(DoubleType,true),true)),true), StructField(leftNodeId,IntegerType,true), StructField(rightNodeId,IntegerType,true), StructField(infoGain,DoubleType,true))
+       
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:56,973][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Going to read the following fields from the Parquet file:
+
+Parquet form:
+message spark_schema {
+  optional int32 treeId;
+  optional int32 nodeId;
+  optional group predict {
+    optional double predict;
+    optional double prob;
+  }
+  optional double impurity;
+  optional boolean isLeaf;
+  optional group split {
+    optional int32 feature;
+    optional double threshold;
+    optional int32 featureType;
+    optional group categories (LIST) {
+      repeated group list {
+        optional double element;
+      }
+    }
+  }
+  optional int32 leftNodeId;
+  optional int32 rightNodeId;
+  optional double infoGain;
+}
+
+Catalyst form:
+StructType(StructField(treeId,IntegerType,true), StructField(nodeId,IntegerType,true), StructField(predict,StructType(StructField(predict,DoubleType,true), StructField(prob,DoubleType,true)),true), StructField(impurity,DoubleType,true), StructField(isLeaf,BooleanType,true), StructField(split,StructType(StructField(feature,IntegerType,true), StructField(threshold,DoubleType,true), StructField(featureType,IntegerType,true), StructField(categories,ArrayType(DoubleType,true),true)),true), StructField(leftNodeId,IntegerType,true), StructField(rightNodeId,IntegerType,true), StructField(infoGain,DoubleType,true))
+       
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,338][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Code generated in 267.539772 ms
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,352][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Code generated in 9.678267 ms
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,368][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Code generated in 12.56301 ms
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,570][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 1.0 in stage 2.0 (TID 6). 2256 bytes result sent to driver
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,574][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 1.0 in stage 2.0 (TID 6) in 724 ms on localhost (1/4)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,581][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 0.0 in stage 2.0 (TID 5). 2256 bytes result sent to driver
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,585][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 0.0 in stage 2.0 (TID 5) in 736 ms on localhost (2/4)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,591][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 2.0 in stage 2.0 (TID 7). 2256 bytes result sent to driver
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,594][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 2.0 in stage 2.0 (TID 7) in 743 ms on localhost (3/4)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,596][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 3.0 in stage 2.0 (TID 8). 2256 bytes result sent to driver
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,598][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 3.0 in stage 2.0 (TID 8) in 746 ms on localhost (4/4)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,598][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | ShuffleMapStage 2 (groupBy at DecisionTreeModel.scala:263) finished in 0,750 s
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,598][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Removed TaskSet 2.0, whose tasks have all completed, from pool 
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,599][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | looking for newly runnable stages
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,600][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | running: Set()
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,601][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | waiting: Set(ResultStage 3)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,602][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | failed: Set()
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,606][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Submitting ResultStage 3 (MapPartitionsRDD[9] at mapValues at DecisionTreeModel.scala:264), which has no missing parents
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,614][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Block broadcast_5 stored as values in memory (estimated size 8.4 KB, free 93.0 KB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,619][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Block broadcast_5_piece0 stored as bytes in memory (estimated size 4.2 KB, free 97.2 KB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,620][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Added broadcast_5_piece0 in memory on localhost:57028 (size: 4.2 KB, free: 1140.4 MB)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,621][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Created broadcast 5 from broadcast at DAGScheduler.scala:1006
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,622][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Submitting 4 missing tasks from ResultStage 3 (MapPartitionsRDD[9] at mapValues at DecisionTreeModel.scala:264)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,622][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Adding task set 3.0 with 4 tasks
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,631][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting task 0.0 in stage 3.0 (TID 9, localhost, partition 0,NODE_LOCAL, 1813 bytes)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,632][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting task 1.0 in stage 3.0 (TID 10, localhost, partition 1,NODE_LOCAL, 1813 bytes)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,633][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting task 2.0 in stage 3.0 (TID 11, localhost, partition 2,NODE_LOCAL, 1813 bytes)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,633][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Starting task 3.0 in stage 3.0 (TID 12, localhost, partition 3,NODE_LOCAL, 1813 bytes)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,634][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Running task 2.0 in stage 3.0 (TID 11)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,635][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Running task 3.0 in stage 3.0 (TID 12)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,636][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Running task 1.0 in stage 3.0 (TID 10)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,640][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Running task 0.0 in stage 3.0 (TID 9)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,663][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Getting 4 non-empty blocks out of 4 blocks
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,663][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Getting 4 non-empty blocks out of 4 blocks
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,663][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Getting 4 non-empty blocks out of 4 blocks
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,664][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Getting 4 non-empty blocks out of 4 blocks
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,665][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Started 0 remote fetches in 7 ms
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,665][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Started 0 remote fetches in 6 ms
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,665][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Started 0 remote fetches in 7 ms
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,665][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Started 0 remote fetches in 1 ms
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,707][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 3.0 in stage 3.0 (TID 12). 1161 bytes result sent to driver
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,708][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 2.0 in stage 3.0 (TID 11). 1161 bytes result sent to driver
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,708][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 3.0 in stage 3.0 (TID 12) in 75 ms on localhost (1/4)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,709][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 2.0 in stage 3.0 (TID 11) in 77 ms on localhost (2/4)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,710][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 1.0 in stage 3.0 (TID 10). 1161 bytes result sent to driver
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,711][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 1.0 in stage 3.0 (TID 10) in 80 ms on localhost (3/4)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,744][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 0.0 in stage 3.0 (TID 9). 12223 bytes result sent to driver
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,749][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Finished task 0.0 in stage 3.0 (TID 9) in 121 ms on localhost (4/4)
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,750][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Removed TaskSet 3.0, whose tasks have all completed, from pool 
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,751][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | ResultStage 3 (collect at DecisionTreeModel.scala:265) finished in 0,122 s
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,751][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Job 2 finished: collect at DecisionTreeModel.scala:265, took 0,933923 s
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,922][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Stopped Spark web UI at http://192.168.188.6:4040
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,936][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | MapOutputTrackerMasterEndpoint stopped!
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,946][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | MemoryStore cleared
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,948][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | BlockManager stopped
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,950][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | BlockManagerMaster stopped
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,953][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | OutputCommitCoordinator stopped!
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,955][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Successfully stopped SparkContext
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,956][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | SparkContext already stopped.
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,960][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Shutdown hook called
+[34m[INFO ][0;39m [35m[2016-07-05 14:04:57,961][0;39m [33m[][0;39m [35m[org.apache.spark.Logging$class->logInfo][0;39m | Deleting directory /private/var/folders/fd/s_6smjqn7mngnfdw8rz9t4w00000gp/T/spark-a78a3e01-5555-4a02-bba4-184a7c55247a
